@@ -1,0 +1,327 @@
+{
+  "schema": "alia-june.public-research-index.v1",
+  "snapshot_date": "2026-11-23",
+  "owner": "alia-june",
+  "scope": "Public repository entry points only; private repositories, credentials, personal preservation data and unpublished work are excluded.",
+  "coverage": "Curated index of the public repositories and their principal published entry points. Not an exhaustive enumeration of every file, branch, release or commit.",
+  "authoritative_policy": "Each linked repository and document governs its own source, scope, evidence status, rights, and revision. A discovery link confers no right to ingest restricted material, execute code, adopt findings, or bypass consent/production gates.",
+  "research_method": "Read originals; resolve live repository refs; preserve provenance and license; distinguish speculation, historical records, verified tests, and authorized deployment. No person-level methodological fingerprint mining without consent.",
+  "unresolved": "Live deployment, link availability outside GitHub, version freshness of pinned historical maps, and technical fitness require separate verification.",
+  "repositories": [
+    {
+      "repository": "alia-june/ethical-and-intellectual-theory",
+      "repository_url": "https://github.com/alia-june/ethical-and-intellectual-theory",
+      "public": true,
+      "subject": "Ethics, legal theory, consent, governance and research methods",
+      "evidence_boundary": "Research doctrine and proposed frameworks; check each document's evidence status.",
+      "entries": [
+        {
+          "title": "Start / research map",
+          "path": "README.md",
+          "kind": "front-door",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/README.md"
+        },
+        {
+          "title": "Legal Theory index",
+          "path": "legal-theory/README.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/legal-theory/README.md"
+        },
+        {
+          "title": "Knowledge Antithesis",
+          "path": "legal-theory/knowledge-antithesis/README.md",
+          "kind": "research",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/legal-theory/knowledge-antithesis/README.md"
+        },
+        {
+          "title": "Condition Capture and Defeat",
+          "path": "legal-theory/condition-capture-and-defeat/README.md",
+          "kind": "research",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/legal-theory/condition-capture-and-defeat/README.md"
+        },
+        {
+          "title": "Blueprint index",
+          "path": "blue-prints/README.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/blue-prints/README.md"
+        },
+        {
+          "title": "Lunar Flower Seed: Gates 1–5",
+          "path": "blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md",
+          "kind": "proposed-contract",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md"
+        },
+        {
+          "title": "Research ethics doctrine",
+          "path": "research-ethics/SELF_DOCTRINE_EXTENDED.md",
+          "kind": "doctrine",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/research-ethics/SELF_DOCTRINE_EXTENDED.md"
+        },
+        {
+          "title": "Programming doctrine",
+          "path": "programming-doctrine/HUMAN_DOCTRINE.md",
+          "kind": "doctrine",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/programming-doctrine/HUMAN_DOCTRINE.md"
+        },
+        {
+          "title": "ReShade research guidance",
+          "path": "outreach/reshade/README.md",
+          "kind": "guidance",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/outreach/reshade/README.md"
+        },
+        {
+          "title": "Governed Meaning and Action",
+          "path": "blue-prints/governed-meaning-and-action/README.md",
+          "kind": "research",
+          "url": "https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/blue-prints/governed-meaning-and-action/README.md"
+        }
+      ]
+    },
+    {
+      "repository": "alia-june/xOSG-prototype",
+      "repository_url": "https://github.com/alia-june/xOSG-prototype",
+      "public": true,
+      "subject": "Instrumented systems, orchestration and bounded technical prototypes",
+      "evidence_boundary": "Project stages, verification and integration are member-specific; no blanket production admission.",
+      "entries": [
+        {
+          "title": "Project directory",
+          "path": "README.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/README.md"
+        },
+        {
+          "title": "Instrumentation family",
+          "path": "docs/xosg/README.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/docs/xosg/README.md"
+        },
+        {
+          "title": "xOSG-0 development spine",
+          "path": "syn-xOSG-0/README.md",
+          "kind": "research",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/syn-xOSG-0/README.md"
+        },
+        {
+          "title": "Tool instrumentation",
+          "path": "Instrumentation/README.md",
+          "kind": "how-to",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/Instrumentation/README.md"
+        },
+        {
+          "title": "Mill Factory",
+          "path": "mill-factory/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/mill-factory/README.md"
+        },
+        {
+          "title": "Code-Lexigraph",
+          "path": "code-lexigraph/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/code-lexigraph/README.md"
+        },
+        {
+          "title": "NLP Development Suite",
+          "path": "nlp-development-suite/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/nlp-development-suite/README.md"
+        },
+        {
+          "title": "MATH.SC-0",
+          "path": "xosg-0-math-sc0/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/xosg-0-math-sc0/README.md"
+        },
+        {
+          "title": "Syn-Etabit Textual Transformer",
+          "path": "syn-etabit-transformer-textual/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/syn-etabit-transformer-textual/README.md"
+        },
+        {
+          "title": "sf-AmorphDataDrive",
+          "path": "sf-amorph-data-drive/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/sf-amorph-data-drive/README.md"
+        },
+        {
+          "title": "Etabit Schema",
+          "path": "etabit-schema/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/etabit-schema/README.md"
+        },
+        {
+          "title": "GFX Form Engine",
+          "path": "gfx-form-engine/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/gfx-form-engine/README.md"
+        },
+        {
+          "title": "Semantic Symbol Interpreter",
+          "path": "semantic-symbol-interpreter/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/semantic-symbol-interpreter/README.md"
+        },
+        {
+          "title": "Holoquary",
+          "path": "holoquary/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/holoquary/README.md"
+        },
+        {
+          "title": "Governed Microserver Transmigration",
+          "path": "governed-microserver-transmigration/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/xOSG-prototype/blob/main/governed-microserver-transmigration/README.md"
+        }
+      ]
+    },
+    {
+      "repository": "alia-june/Lunar-Flower",
+      "repository_url": "https://github.com/alia-june/Lunar-Flower",
+      "public": true,
+      "subject": "ReShade shader research, builds, experiments and AI-seed theory index",
+      "evidence_boundary": "Effects have specific test boundaries; AI seed is theory, not shader functionality.",
+      "entries": [
+        {
+          "title": "Project homepage and builds",
+          "path": "README.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/Lunar-Flower/blob/main/README.md"
+        },
+        {
+          "title": "Twin Lanterns overview",
+          "path": "Twin-Lanterns/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/Lunar-Flower/blob/main/Twin-Lanterns/README.md"
+        },
+        {
+          "title": "Cracked Crystal setup",
+          "path": "Twin-Lanterns/Cracked-Crystal/README.md",
+          "kind": "guide",
+          "url": "https://github.com/alia-june/Lunar-Flower/blob/main/Twin-Lanterns/Cracked-Crystal/README.md"
+        },
+        {
+          "title": "Shader development Mill",
+          "path": "development/mill/README.md",
+          "kind": "project",
+          "url": "https://github.com/alia-june/Lunar-Flower/blob/main/development/mill/README.md"
+        },
+        {
+          "title": "Downloads and releases",
+          "path": "downloads/README.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/Lunar-Flower/blob/main/downloads/README.md"
+        },
+        {
+          "title": "AI Seed theory index",
+          "path": "theory/README.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/Lunar-Flower/blob/main/theory/README.md"
+        },
+        {
+          "title": "Heuristic landing pad",
+          "path": "ai.landing.pad.json",
+          "kind": "machine",
+          "url": "https://github.com/alia-june/Lunar-Flower/blob/main/ai.landing.pad.json"
+        },
+        {
+          "title": "Compact AI germ",
+          "path": "ai.landing.pad.low-mem.json",
+          "kind": "machine",
+          "url": "https://github.com/alia-june/Lunar-Flower/blob/main/ai.landing.pad.low-mem.json"
+        }
+      ]
+    },
+    {
+      "repository": "alia-june/this-repository-machine-interface",
+      "repository_url": "https://github.com/alia-june/this-repository-machine-interface",
+      "public": true,
+      "subject": "Read-only orientation, ingress/launch/egress contracts and JSON project maps",
+      "evidence_boundary": "Reference and proposal documents; links do not instantiate an agent or grant authority.",
+      "entries": [
+        {
+          "title": "Project front door",
+          "path": "README.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/this-repository-machine-interface/blob/main/README.md"
+        },
+        {
+          "title": "Human machine-interface guide",
+          "path": ".ai.system.logic/human.README.md",
+          "kind": "guide",
+          "url": "https://github.com/alia-june/this-repository-machine-interface/blob/main/.ai.system.logic/human.README.md"
+        },
+        {
+          "title": "Audited JSON record map",
+          "path": ".ai.system.logic/human.PROJECT_JSON_MAP.md",
+          "kind": "index",
+          "url": "https://github.com/alia-june/this-repository-machine-interface/blob/main/.ai.system.logic/human.PROJECT_JSON_MAP.md"
+        },
+        {
+          "title": "Heuristic landing pad",
+          "path": "ai.landing.pad.json",
+          "kind": "machine",
+          "url": "https://github.com/alia-june/this-repository-machine-interface/blob/main/ai.landing.pad.json"
+        },
+        {
+          "title": "Compact AI germ",
+          "path": "ai.landing.pad.low-mem.json",
+          "kind": "machine",
+          "url": "https://github.com/alia-june/this-repository-machine-interface/blob/main/ai.landing.pad.low-mem.json"
+        },
+        {
+          "title": "Ingress contract",
+          "path": "ai.ingress.json",
+          "kind": "machine",
+          "url": "https://github.com/alia-june/this-repository-machine-interface/blob/main/ai.ingress.json"
+        },
+        {
+          "title": "Launch contract",
+          "path": "ai.launch.pad.json",
+          "kind": "machine",
+          "url": "https://github.com/alia-june/this-repository-machine-interface/blob/main/ai.launch.pad.json"
+        },
+        {
+          "title": "Egress contract",
+          "path": "ai.egress.json",
+          "kind": "machine",
+          "url": "https://github.com/alia-june/this-repository-machine-interface/blob/main/ai.egress.json"
+        }
+      ]
+    },
+    {
+      "repository": "alia-june/alia-june.github.io",
+      "repository_url": "https://github.com/alia-june/alia-june.github.io",
+      "public": true,
+      "subject": "Public navigation and research discovery only",
+      "evidence_boundary": "Static catalog and navigation, not a live mirror or enforcement control.",
+      "entries": [
+        {
+          "title": "Site home",
+          "path": "index.html",
+          "kind": "index",
+          "url": "https://github.com/alia-june/alia-june.github.io/blob/main/index.html"
+        },
+        {
+          "title": "Research directory",
+          "path": "research.html",
+          "kind": "index",
+          "url": "https://github.com/alia-june/alia-june.github.io/blob/main/research.html"
+        },
+        {
+          "title": "Machine discovery",
+          "path": "machine.html",
+          "kind": "guide",
+          "url": "https://github.com/alia-june/alia-june.github.io/blob/main/machine.html"
+        },
+        {
+          "title": "Structured catalog",
+          "path": "research-index.json",
+          "kind": "machine",
+          "url": "https://github.com/alia-june/alia-june.github.io/blob/main/research-index.json"
+        }
+      ]
+    }
+  ]
+}
