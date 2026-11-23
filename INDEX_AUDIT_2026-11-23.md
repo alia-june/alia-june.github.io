@@ -14,8 +14,8 @@ Five public repositories were identified and included:
 | [xOSG-prototype](https://github.com/alia-june/xOSG-prototype) | 15 | Project directory and technical research subprojects |
 | [Lunar-Flower](https://github.com/alia-june/Lunar-Flower) | 8 | ReShade builds, tests, and AI Seed links |
 | [this-repository-machine-interface](https://github.com/alia-june/this-repository-machine-interface) | 8 | Machine-oriented landing, ingress/launch/egress, and pinned JSON map |
-| [alia-june.github.io](https://github.com/alia-june/alia-june.github.io) | 4 | Human site, machine page, research page, JSON catalog |
-| **Total** | **45** | Curated principal public entry points |
+| [alia-june.github.io](https://github.com/alia-june/alia-june.github.io) | 5 | Human site, machine page, research page, JSON catalog |
+| **Total** | **46** | Curated principal public entry points |
 
 Private repositories, secret material, unpublished sources, and personal identity/methodological profiles are excluded from the public catalog. The existence of a public entry does not grant consent to unrelated uses.
 
@@ -33,7 +33,7 @@ Private repositories, secret material, unpublished sources, and personal identit
 
 ## Checks and limits
 
-- The newly committed JSON catalog was parsed and its five repository groups and 45 curated entries were checked.
+- The newly committed JSON catalog was parsed and its five repository groups and 46 curated entries were checked.
 - The exact paths in the principal project indexes were cross-referenced with GitHub source reads. This did **not** traverse every file, branch, submodule, or attachment, nor independently verify the factual content of each document.
 - The front doors distinguish theory, prototype/evidence status, and machine-interface references; they do not claim that Gate 5, Gate 0, or any production safeguards have been implemented or admitted.
 - Public source commits were verified through GitHub. **Live GitHub Pages serving, indexing by third-party search engines, external links beyond GitHub, CI deployment, and all browsers were not independently verified** by this audit.
