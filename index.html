@@ -36,6 +36,15 @@
     .project:hover, .project:focus-within { background: var(--surface); }
     h2 { font-size: clamp(1.25rem, 2.2vw, 1.7rem); font-weight: 600; line-height: 1.3; letter-spacing: -.02em; margin: 0; overflow-wrap: anywhere; }
     .project p { color: var(--muted); margin: 0; }
+    .pathways { border-top: 1px solid var(--line); padding: 2.5rem 0; }
+    .pathways h2 { margin: 0 0 1rem; }
+    .path-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,17rem),1fr)); gap: 1rem; }
+    .path { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 1.2rem; }
+    .path h3 { margin: 0 0 .45rem; font-size: 1.12rem; }
+    .path p { color: var(--muted); font-size: .98rem; margin: 0; }
+    .scope { border-top: 1px solid var(--line); padding: 2rem 0 2.5rem; color: var(--muted); }
+    .meta { font-size: .91rem; color: var(--muted); }
+    .project a.extra { font-size: .94rem; display: inline-block; margin-top: .5rem; }
     footer { padding-block: 2.5rem 3rem; color: var(--muted); font-size: 1rem; }
     @media (max-width: 44rem) { .project { grid-template-columns: 1fr; gap: .75rem; padding-inline: 0; } .wrap { width: min(72rem, 100% - 2rem); } .masthead { padding-block: 1.3rem; } }
     @media (forced-colors: active) { .project { border-color: CanvasText; } a:focus-visible { outline-color: Highlight; } }
@@ -60,33 +69,48 @@
   <div class="wrap">
     <header class="masthead">
       <span class="brand">alia-june</span>
-      <nav aria-label="Profile"><a href="https://github.com/alia-june">GitHub profile</a></nav>
+      <nav aria-label="Site navigation"><a href="research.html">Research map</a> · <a href="machine.html">Machine index</a> · <a href="https://github.com/alia-june">GitHub</a></nav>
     </header>
     <main>
       <div class="intro">
         <h1>Research &amp; software</h1>
-        <p>Public projects by alia-june in research ethics, AI instrumentation, rendering, and repository navigation.</p>
+        <p>Public projects by alia-june in research ethics, AI instrumentation, rendering, and repository navigation. Explore the <a href="research.html">source-linked research map</a> or the <a href="machine.html">machine-oriented index</a>.</p>
       </div>
       <ul class="projects" id="projects" aria-label="Public projects">
         <li class="project">
           <h2><a href="https://github.com/alia-june/ethical-and-intellectual-theory">Ethical and Intellectual Theory</a></h2>
-          <p>Research ethics and intellectual methodology covering consent, attribution, AI collaboration, programming doctrine, and provenance.</p>
+          <p>Research ethics and intellectual methodology covering consent, attribution, AI collaboration, programming doctrine, and provenance. <a class="extra" href="https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/legal-theory/README.md">Legal theory index</a> · <a class="extra" href="https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md">Five proposed seed gates</a></p>
         </li>
         <li class="project">
           <h2><a href="https://github.com/alia-june/xOSG-prototype">xOSG Prototype</a></h2>
-          <p>AI instrumentation and research prototypes for expert-system orchestration, durable workspaces, NLP tooling, code reconstruction, document transformation, and deterministic computing.</p>
+          <p>AI instrumentation and research prototypes for expert-system orchestration, durable workspaces, NLP tooling, code reconstruction, document transformation, and deterministic computing. <a class="extra" href="https://github.com/alia-june/xOSG-prototype/blob/main/README.md#project-directory">Project directory</a></p>
         </li>
         <li class="project">
           <h2><a href="https://github.com/alia-june/Lunar-Flower">Lunar Flower / Twin Lanterns</a></h2>
-          <p>Twin Lanterns for ReShade—screen-space indirect lighting, shaders, presets, downloads, and documented rendering experiments.</p>
+          <p>Twin Lanterns for ReShade—screen-space indirect lighting, shaders, presets, downloads, and documented rendering experiments. <a class="extra" href="https://github.com/alia-june/Lunar-Flower/blob/main/theory/README.md">Lunar Flower AI Seed</a></p>
         </li>
         <li class="project">
           <h2><a href="https://github.com/alia-june/this-repository-machine-interface">This Repository Machine Interface</a></h2>
-          <p>Machine-readable repository navigation for AI and heuristic engines, with JSON landing pads, ingress, launch, egress, and human orientation guides.</p>
+          <p>Machine-readable repository navigation for AI and heuristic engines, with JSON landing pads, ingress, launch, egress, and human orientation guides. <a class="extra" href="https://github.com/alia-june/this-repository-machine-interface/blob/main/.ai.system.logic/human.PROJECT_JSON_MAP.md">Audited JSON map</a></p>
         </li>
       </ul>
+      <section class="pathways" aria-labelledby="pathways-title">
+        <h2 id="pathways-title">Explore by research question</h2>
+        <div class="path-grid">
+          <div class="path"><h3><a href="research.html#theory">Ethics and legal theory</a></h3><p>Consent, legal-reasoning diagnostics, Knowledge Antithesis, programming doctrine and attribution.</p></div>
+          <div class="path"><h3><a href="research.html#systems">Systems and tools</a></h3><p>xOSG-0, deterministic computation, tooling, machine interfaces, document transformations and bounded prototypes.</p></div>
+          <div class="path"><h3><a href="research.html#rendering">Rendering experiments</a></h3><p>ReShade effects, build evidence, the shader development Mill and research methodology.</p></div>
+          <div class="path"><h3><a href="machine.html">Machine-oriented discovery</a></h3><p>Read-only JSON catalog, live-source routing, provenance and fail-closed reference resolution.</p></div>
+        </div>
+      </section>
+      <section class="scope" aria-labelledby="scope-title">
+        <h2 id="scope-title">Research boundaries</h2>
+        <p>The catalog covers public repository entry points. Documents may describe proposed theory, bounded test evidence or candidate implementations; a link does not certify correctness, constitute consent, or activate production controls.</p>
+        <p><a href="research-index.json">Machine-readable public catalog</a> · <a href="https://github.com/alia-june/alia-june.github.io">Website source and maintenance notes</a></p>
+        <p class="meta">Navigation snapshot: 23 November 2026. Verify the current revision in the linked repository before reliance.</p>
+      </section>
     </main>
-    <footer>Source, documentation, and project-specific validation are available in each repository.</footer>
+    <footer>Source, documentation, and project-specific validation are available in each repository. The website is a static navigation surface, not a runtime or authorization authority.</footer>
   </div>
 </body>
 </html>
