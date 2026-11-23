@@ -33,10 +33,10 @@ Private repositories, secret material, unpublished sources, and personal identit
 
 ## Checks and limits
 
-- The newly committed JSON catalog was parsed and its five repository groups and 46 curated entries were checked.
-- The exact paths in the principal project indexes were cross-referenced with GitHub source reads. This did **not** traverse every file, branch, submodule, or attachment, nor independently verify the factual content of each document.
+- The newly committed JSON catalog was parsed: **5 public repository groups, 46 unique entry points, no duplicate repository/path records, and no mismatched GitHub source URLs**.
+- **46/46 catalogued file paths** were fetched successfully from their owning GitHub repositories after publication. This path-existence check did **not** traverse every file, branch, submodule, or attachment, nor independently verify the factual content of each document.
 - The front doors distinguish theory, prototype/evidence status, and machine-interface references; they do not claim that Gate 5, Gate 0, or any production safeguards have been implemented or admitted.
-- Public source commits were verified through GitHub. **Live GitHub Pages serving, indexing by third-party search engines, external links beyond GitHub, CI deployment, and all browsers were not independently verified** by this audit.
+- The three human HTML pages passed basic source checks for document type, viewport metadata, main content and skip navigation; all three were listed in the sitemap. Public source commits were verified through GitHub. **Live GitHub Pages serving, indexing by third-party search engines, external links beyond GitHub, CI deployment, and all browsers were not independently verified** by this audit.
 - The existing machine JSON record map is revision-pinned. A new live source revision may require a new audit, not silent alteration of its historical inventory.
 - Catalog coverage is **complete for the five publicly enumerated repository front doors and their selected principal entry points** at this audit, but **not exhaustive** of all repository objects.
 
