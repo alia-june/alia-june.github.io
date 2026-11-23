@@ -6,6 +6,7 @@ Static, public, source-first navigation for the public alia-june GitHub projects
 - [Research map](https://alia-june.github.io/research.html) — thematic human navigation across project indexes.
 - [Machine discovery](https://alia-june.github.io/machine.html) — read-only machine-routing explanation and links.
 - [Structured research index](https://alia-june.github.io/research-index.json) — JSON catalog of curated public repo entry points.
+- [Dated index audit](INDEX_AUDIT_2026-11-23.md) — coverage, source checks, unresolved conditions and maintenance triggers.
 - [Site source](index.html)
 
 **Scope:** The index covers only public project entry points. It is a snapshot, not an exhaustive file-tree inventory, real-time crawler, runtime contract, or independent certification. Private repositories and personal preservation data are excluded. Read source documents and applicable licenses before using research. Machine-oriented links do not confer authority, permission, or consent.
